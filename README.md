@@ -12,7 +12,7 @@ This repository includes a Jupyter notebook of the model's implementation, and e
 
 - **EfficientNet-Inspired Compound Scaling**: Balanced deepening, widening, and input resolution for efficient resource use.
 - **Mobile Inverted Bottleneck Blocks**: Lightweight architecture for faster computation and reduced memory consumption.
-- **Depthwise Separable Convolutions**: Lower computational and parameter cost while preserving feature richness.
+- **Dilated Depthwise Separable Convolutions**: Wider view of input, but with lower computational and parameter cost while preserving feature richness.
 - **Squeeze-and-Excitation (SE) Attention**: Adaptive channel recalibration boosts discriminative feature selection.
 - **Spatial Attention**: Further focuses model on relevant anatomical regions, aiding tumor localization.
 - **Batch Normalization and Residual Connections**: Enhanced training stability and improved gradient flow in deep architectures.

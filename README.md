@@ -42,7 +42,6 @@ This repository includes a Jupyter notebook of the model's implementation, and e
 - **Overfitting Risk**: Powerful attention modules (SE, spatial) and aggressive scaling can cause overfitting if used with small or poorly augmented datasets.
 - **Need for Careful Regularization**: Strong data augmentation, dropout, and validation splits are essential.
 - **Batch Size Sensitivity**: Batch normalization can be unstable with small batch sizes typical of large MRI images—consider alternatives if necessary.
-- **Requires Domain-Specific Preprocessing**: Physician guidance may be needed for dataset preparation.
 
 ---
 
